@@ -6,9 +6,9 @@
 - [Sources](#Sources)
 
 Authored by:
-Molly Baird
-Patrick Kajibe
-Allan Merrick
+- Molly Baird
+- Patrick Kajibale
+- Allan Merrick
 
 #### Problem Statement
 This tool will rely on websites that provide employment information and sector-specific wage estimations (such as Glassdoor and Indeed) to project the economic loss (wage loss) due to a disaster. Based on the type of businesses and services in a given affected area and/or using supplementary demographic data (for example, from the Census Bureau of Statistics), the tool will provide an estimation about the projected economic loss in a given locality based on the reported or estimated wage loss in the locality.
