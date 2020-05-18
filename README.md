@@ -9,7 +9,10 @@
 This tool will rely on websites that provide employment information and sector-specific wage estimations (such as Glassdoor and Indeed) to project the economic loss (wage loss) due to a disaster. Based on the type of businesses and services in a given affected area and/or using supplementary demographic data (for example, from the Census Bureau of Statistics), the tool will provide an estimation about the projected economic loss in a given locality based on the reported or estimated wage loss in the locality.
 
 #### Executive Summary
-- Decision Tree [re-name and link your notebook and executive findings]
+- [Discretized Model](./Molly/discretized-modeling.ipynb)
+    - Categorized wage loss into ranges based on percentile
+    - Fit decision tree to predict which wage loss tier a given occupation would be in given the state, disaster type, and time of year
+    - Mainly modeled the food service industry
 - RandomForest [re-name and notebook and executive findings]
 - [Webscraper EDA](./Glassdoor-Scrape-EDA-FINAL.ipynb)
   - Anti-scraping methods identified and outlined
@@ -45,6 +48,8 @@ This tool will rely on websites that provide employment information and sector-s
 #### Conclusions and Recommendations
 [Molly Patrick, add one or two sentences regarding model findings here]
 
+Decision trees provide a fast, efficient, and versatile model for predicting wage loss tiers of a given job for a particular state and disaster type. They are straightforward to interpret, and make few assumptions on the distribution of the data, making them good models for any industry type. However, they are very prone to overfitting as was found here. Random forests found improvements in variance, but little improvement in overall predictive ability. Our decision tree performed with 70% accuracy, 2.4 times better than the baseline model which assigns every data point belongs to the largest wage tier.
+
 Scraper functionally manages to access Glassdoor website, use search bar, return information typically nested in anti-scraping HTML (shadow agents). The function is annotated heavily for repurposing or iteration (depending on the information needed.) Currently the function is configured for current status job summaries based on the inputs of job name transformed location (location in put is optional.)
 
 
@@ -57,3 +62,6 @@ Scraper functionally manages to access Glassdoor website, use search bar, return
 - [Selenium Review SEA-FLEX-11](https://git.generalassemb.ly/charles-rice/SEA-Flex-11/tree/master/08_week/selenium-webscraping) : Selenium flex review lab completed with our instructor.
 - [Xpath guide](https://devhints.io/xpath) : reference guide for Xpath commands
 - [Selenium Keys_Input Documentation](https://selenium-python.readthedocs.io/api.html) : reference guide for special keys
+- [FEMA Disasters](https://www.fema.gov/openfema-dataset-disaster-declarations-summaries-v1) : Data about every official disaster in the US since 1953
+- [Occupational Statistics from the Bureau of Labor Statistics ](https://www.bls.gov/oes/tables.htm) : Data regarding employment and wages by job type and state
+- [Local Area Employment Statistics from the Bureau of Labor Statistics ](https://www.bls.gov/lau/rdscnp16.htm) : Data regarding employment rates for each state
