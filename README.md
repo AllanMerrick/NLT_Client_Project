@@ -5,6 +5,11 @@
 - [Conclusions and Recommendations](#Conclusions-and-Recommendations)
 - [Sources](#Sources)
 
+Authored by:
+Molly Baird
+Patrick Kajibe
+Allan Merrick
+
 #### Problem Statement
 This tool will rely on websites that provide employment information and sector-specific wage estimations (such as Glassdoor and Indeed) to project the economic loss (wage loss) due to a disaster. Based on the type of businesses and services in a given affected area and/or using supplementary demographic data (for example, from the Census Bureau of Statistics), the tool will provide an estimation about the projected economic loss in a given locality based on the reported or estimated wage loss in the locality.
 
@@ -13,7 +18,9 @@ This tool will rely on websites that provide employment information and sector-s
 - [DSI11 Disaster Dataset SEA](https://drive.google.com/file/d/1x_OnbMtpY_N8TFhXFK-TMyL8HfDOO2HS/view?usp=sharing)
 
 
-- [Discretized Model](./code/Discretized Modeling/discretized-modeling.ipynb)
+‎⁨MACBOOK OS⁩ ▸ ⁨Users⁩ ▸ ⁨null⁩ ▸ ⁨GA_DSI⁩ ▸ ⁨Projects⁩ ▸ ⁨project_5_group⁩ ▸ ⁨code⁩ ▸ ⁨Discretized Modeling⁩
+
+- [Discretized Model](#./code/Discretized Modeling/discretized-modeling.ipynb)
   - Categorized wage loss into ranges based on percentile
   - Fit decision tree to predict which wage loss tier a given occupation would be in given the state, disaster type, and time of year
   - Mainly modeled the food service industry
@@ -25,7 +32,7 @@ This tool will rely on websites that provide employment information and sector-s
   - 25th  percentile of wage is expected loss of  of  9565$  after a disaster
   - 50th percentile of  wage is expected to gain  roughly  by  0$ after a disaster
   - 75th percentile of wage  is expected to increase by 52582$
-- [Webscraper EDA](.code/Webscraper/Glassdoor-Scrape-EDA-FINAL.ipynb)
+- [Webscraper EDA](#.code/Webscraper/Glassdoor-Scrape-EDA-FINAL.ipynb)
   - Anti-scraping methods identified and outlined
   - Final function annotated for adaptability and multi-use
 
