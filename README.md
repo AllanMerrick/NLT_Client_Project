@@ -24,7 +24,7 @@ This tool will rely on websites that provide employment information and sector-s
   - Categorized wage loss into ranges based on percentile
   - Fit decision tree to predict which wage loss tier a given occupation would be in given the state, disaster type, and time of year
   - Mainly modeled the food service industry
-  - [Principal Component Analysis Regressor and Random Forest Pt.1](#./code/PCA-and-RF-Modeling/final1.ipynb)
+- [Principal Component Analysis Regressor and Random Forest Pt.1](#./code/PCA-and-RF-Modeling/final1.ipynb)
   - 25 th  percentile of wage is expected to gain roughly by 42852$  after a disaster
   - 50 th percentile of  wage is expected to gain  roughly  by  99243$ after a disaster
   - 75 th percentile of wage  is expected to increase by 140 521$
