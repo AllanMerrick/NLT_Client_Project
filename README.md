@@ -17,9 +17,7 @@ This tool will rely on websites that provide employment information and sector-s
 **DUE TO THE SIZE OF OUR DATASET, IT IS HOSTED FOR PUBLIC ACCESS:**
 - [DSI11 Disaster Dataset SEA](https://drive.google.com/file/d/1x_OnbMtpY_N8TFhXFK-TMyL8HfDOO2HS/view?usp=sharing)
 
-
-‎⁨MACBOOK OS⁩ ▸ ⁨Users⁩ ▸ ⁨null⁩ ▸ ⁨GA_DSI⁩ ▸ ⁨Projects⁩ ▸ ⁨project_5_group⁩ ▸ ⁨code⁩ ▸ ⁨Discretized Modeling⁩
-
+**Modeling and EDA**
 - [Discretized Model](./code/Discretized-Modeling/discretized-modeling.ipynb)
   - Categorized wage loss into ranges based on percentile
   - Fit decision tree to predict which wage loss tier a given occupation would be in given the state, disaster type, and time of year
@@ -64,8 +62,6 @@ This tool will rely on websites that provide employment information and sector-s
 |**Posts (3, 7, 30 days)**|*integer*| scraper output | quantity of posts in the selected job title and area within each bin of days.
 
 #### Conclusions and Recommendations
-[Molly Patrick, add one or two sentences regarding model findings here]
-
 Decision trees provide a fast, efficient, and versatile model for predicting wage loss tiers of a given job for a particular state and disaster type. They are straightforward to interpret, and make few assumptions on the distribution of the data, making them good models for any industry type. However, they are very prone to overfitting as was found here. Random forests found improvements in variance, but little improvement in overall predictive ability. Our decision tree performed with 70% accuracy, 2.4 times better than the baseline model which assigns every data point belongs to the largest wage tier.
 
 The principal component analysis regression has not been an ideal choice to predict the an economic loss disaster in the industry of construction and reparation. Random forest regressor performed quite well with 97%.
