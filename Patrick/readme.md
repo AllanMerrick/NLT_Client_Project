@@ -4,7 +4,7 @@
 
 Principal component analisis regressor and random forest regression have been used into modeling process
 with a 1,5 Million row data frame and 103 colunms , while the first component analysis could only capture approximatly 4.2 % of the variability, 10 components could only explain 26% of variablity of the data frame. 
-with    
+   
      
 25 th  percentile of wage is expected to gain roughly by 42852$  after a disaster,
 50 th percentile of  wage is expected to gain  roughly  by  99243$ after a disaster, 
