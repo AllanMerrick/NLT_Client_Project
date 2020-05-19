@@ -26,11 +26,11 @@ This tool will rely on websites that provide employment information and sector-s
   - 25 th  percentile of wage is expected to gain roughly by 42852$  after a disaster
   - 50 th percentile of  wage is expected to gain  roughly  by  99243$ after a disaster
   - 75 th percentile of wage  is expected to increase by 140 521$
-- [Principal Component Analysis Regressor and Random Forest Pt.1](./code/PCA-and-RF-Modeling/final2.ipynb)
+- [Principal Component Analysis Regressor and Random Forest Pt.2](./code/PCA-and-RF-Modeling/final2.ipynb)
   - 25th  percentile of wage is expected loss of  of  9565$  after a disaster
   - 50th percentile of  wage is expected to gain  roughly  by  0$ after a disaster
   - 75th percentile of wage  is expected to increase by 52582$
-- [Webscraper EDA](.code/Webscraper/Glassdoor-Scrape-EDA-FINAL.ipynb)
+- [Webscraper EDA](./code/Webscraper/Glassdoor-Scrape-EDA-FINAL.ipynb)
   - Anti-scraping methods identified and outlined
   - Final function annotated for adaptability and multi-use
 
